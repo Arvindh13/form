@@ -1,0 +1,1754 @@
+.company .container {
+  text-align: center;
+}
+.company #header {
+  height: 800px;
+}
+.company #header p {
+  margin: 250px 0 0 0;
+  font-size: 20px;
+}
+.company #header h1 {
+  margin-top: 20px;
+  font-size: 70px;
+  line-height: 75px;
+}
+.company #header .design-at {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font: 600 12px/1.2em "Open Sans", "open-sans", sans-serif;
+  color: #8a959e;
+  text-transform: none;
+}
+.company #header .design-at i {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 23px;
+  width: 83px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -6600px;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  margin-right: 3px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #header .design-at i {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -4400px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+}
+.company .co-description {
+  max-width: 690px;
+  margin: 0px auto;
+}
+.company .co-description p {
+  margin-bottom: 30px;
+}
+.company blockquote {
+  margin-top: 74px;
+}
+.company #content {
+  padding-top: 61px;
+  text-align: center;
+}
+.company #content h2, .company #content p {
+  text-align: center;
+}
+.company #core_values {
+  height: 800px;
+  text-align: center;
+}
+.company #core_values h1 {
+  color: #fff;
+  margin-top: 70px;
+}
+.company #core_values ul {
+  margin-bottom: 87px;
+}
+.company #core_values ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.company #core_values ul a {
+  border: 2px solid #8a959e;
+  height: 104px !important;
+  width: 104px !important;
+  border-radius: 100px;
+  display: block;
+  position: relative;
+  -moz-transition: border 0.1s;
+  -o-transition: border 0.1s;
+  -webkit-transition: border 0.1s;
+  transition: border 0.1s;
+}
+.company #core_values ul a i {
+  position: absolute;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  bottom: -23px;
+  left: 47px;
+  display: block;
+  width: 10px;
+  height: 6px;
+  background-image: url('../img/team/core-carrot.png?1446153675');
+  -moz-transition: opacity 0.1s;
+  -o-transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #core_values ul a i {
+    background-image: url('../img/team/core-carrot@2x.png?1446153675');
+    background-size: 10px 6px;
+  }
+}
+.company #core_values ul a.active {
+  border-color: #ff3366;
+}
+.company #core_values ul a.active i {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+.company #core_values ul a.question {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -3300px;
+  background-repeat: no-repeat;
+}
+.company #core_values ul a.question:active, .company #core_values ul a.question.active {
+  background-position: 0 -3600px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #core_values ul a.question {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -2200px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+  .company #core_values ul a.question:active, .company #core_values ul a.question.active {
+    background-position: 0 -2400px;
+  }
+}
+.company #core_values ul a.think {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -5700px;
+  background-repeat: no-repeat;
+}
+.company #core_values ul a.think:active, .company #core_values ul a.think.active {
+  background-position: 0 -6000px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #core_values ul a.think {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -3800px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+  .company #core_values ul a.think:active, .company #core_values ul a.think.active {
+    background-position: 0 -4000px;
+  }
+}
+.company #core_values ul a.iterate {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -4800px;
+  background-repeat: no-repeat;
+}
+.company #core_values ul a.iterate:active, .company #core_values ul a.iterate.active {
+  background-position: 0 -5100px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #core_values ul a.iterate {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -3200px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+  .company #core_values ul a.iterate:active, .company #core_values ul a.iterate.active {
+    background-position: 0 -3400px;
+  }
+}
+.company #core_values ul a.details {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -2400px;
+  background-repeat: no-repeat;
+}
+.company #core_values ul a.details:active, .company #core_values ul a.details.active {
+  background-position: 0 -2700px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #core_values ul a.details {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -1600px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+  .company #core_values ul a.details:active, .company #core_values ul a.details.active {
+    background-position: 0 -1800px;
+  }
+}
+.company #core_values ul a.design {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -900px;
+  background-repeat: no-repeat;
+}
+.company #core_values ul a.design:active, .company #core_values ul a.design.active {
+  background-position: 0 -1200px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #core_values ul a.design {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -600px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+  .company #core_values ul a.design:active, .company #core_values ul a.design.active {
+    background-position: 0 -800px;
+  }
+}
+.company #core_values ul a.integrity {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.company #core_values ul a.integrity:active, .company #core_values ul a.integrity.active {
+  background-position: 0 -300px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #core_values ul a.integrity {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 0;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+  .company #core_values ul a.integrity:active, .company #core_values ul a.integrity.active {
+    background-position: 0 -200px;
+  }
+}
+.company #core_values .tab-wrapper {
+  position: relative;
+}
+.company #core_values .tab {
+  position: absolute;
+  width: 655px;
+  top: 0px;
+  left: 50%;
+  margin-left: -322px;
+  text-align: center;
+  display: none;
+  min-height: 100px;
+}
+.company #core_values .tab.active {
+  display: block;
+}
+.company #core_values h3 {
+  color: #ff3366;
+  font-size: 24px;
+}
+.company #core_values p {
+  font-size: 25px;
+  line-height: 38px;
+  color: #d4d7da;
+}
+.company #team {
+  padding-bottom: 150px;
+}
+.company #team h2 {
+  margin: 40px 0 130px 0;
+}
+.company .employee-grid {
+  max-width: 1040px;
+  margin: 0px auto;
+}
+.company .employee-grid li {
+  float: left;
+  display: block;
+  margin-right: 3.125%;
+  width: 22.65625%;
+  border: 1px solid #d0d5d8;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  padding: 50px 0 49px;
+}
+.company .employee-grid li:last-child {
+  margin-right: 0;
+}
+.company .employee-grid li:nth-child(4n) {
+  margin-right: 0;
+}
+.company .employee-grid li:nth-child(4n+1) {
+  clear: left;
+}
+.company .employee-grid li div {
+  text-indent: -9999em;
+  margin-bottom: 33px;
+}
+.company .employee-grid li div.aaron_stump {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -145px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.aaron_stump {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -135px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.ahad_raza {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -290px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.ahad_raza {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -270px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.andy_orsow {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -725px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.andy_orsow {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -675px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.avi_posluns {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -870px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.avi_posluns {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -810px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.ben_nadel {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -1160px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.ben_nadel {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -1080px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.billy_kiely {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -1450px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.billy_kiely {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -1350px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.bryan_stanley {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -2030px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.bryan_stanley {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -1890px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.clark_valberg {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -2465px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.clark_valberg {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2295px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.david_bainbridge {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -2900px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.david_bainbridge {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2700px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.jeff_bajayo {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -3480px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.jeff_bajayo {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -3240px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.jeff_mcdowell {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -3625px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.jeff_mcdowell {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -3375px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.joel_hill {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -3770px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.joel_hill {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -3510px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.jon_dowdle {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -4060px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.jon_dowdle {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -3780px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.josh_siok {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -4495px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.josh_siok {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4185px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.matt_vickers {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -5365px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.matt_vickers {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4995px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.oscar_arevalo {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -5510px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.oscar_arevalo {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -5130px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.ryan_duffy {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -6380px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.ryan_duffy {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -5940px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.scott_markovits {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -6525px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.scott_markovits {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -6075px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.shalom_weberman {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -6960px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.shalom_weberman {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -6480px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.shawn_grigson {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -7105px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.shawn_grigson {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -6615px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.vipul_patel {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -7540px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.vipul_patel {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -7020px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.jon_rowny {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -4205px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.jon_rowny {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -3915px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.matt_alvers {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -5220px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.matt_alvers {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4860px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.andrew_cullen {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -580px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.andrew_cullen {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -540px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.jonathan_hau {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -4350px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.jonathan_hau {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4050px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.cutter_blades {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -2610px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.cutter_blades {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2430px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.margaret_kelsey {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -5075px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.margaret_kelsey {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4725px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.ben_jordan {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -1015px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.ben_jordan {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -945px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.katie_glenn {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -4640px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.katie_glenn {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4320px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.jake_stergar {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -3190px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.jake_stergar {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2970px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.beth_vanderkolk {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -1305px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.beth_vanderkolk {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -1215px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.rod_smith {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -5945px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.rod_smith {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -5535px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.roman_alexeev {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -6090px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.roman_alexeev {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -5670px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.kris_niles {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -4785px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.kris_niles {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4455px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.david_malpass {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -3045px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.david_malpass {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2835px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.robbie_manalo {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -5800px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.robbie_manalo {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -5400px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.daryl_banttari {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -2755px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.daryl_banttari {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2565px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.ryan_burke {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -6235px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.ryan_burke {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -5805px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.brandon_wolf {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -1595px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.brandon_wolf {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -1485px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.chris_bowler {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -2175px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.chris_bowler {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2025px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.james_dixson {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -3335px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.james_dixson {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -3105px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.stephen_olmstead {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -7250px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.stephen_olmstead {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -6750px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.lindsey_kotkin {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -4930px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.lindsey_kotkin {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -4590px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.john_moore_williams {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -3915px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.john_moore_williams {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -3645px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.clair_byrd {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -2320px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.clair_byrd {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -2160px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.brian_tino {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -1885px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.brian_tino {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -1755px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.teddie_straughn {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -7395px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.teddie_straughn {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -6885px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid li div.sean_young {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 125px;
+  width: 125px;
+  background-image: url('../img/sprites/employees-s3946cd871e.png');
+  background-position: 0 -6670px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company .employee-grid li div.sean_young {
+    background-image: url('../img/sprites-retina/employees-s3bb801d170.png');
+    background-position: 0 -6210px;
+    -moz-background-size: 125px auto;
+    -o-background-size: 125px auto;
+    -webkit-background-size: 125px auto;
+    background-size: 125px auto;
+  }
+}
+.company .employee-grid h3 {
+  font-size: 14px;
+  color: #8a959e;
+  margin-bottom: 7px;
+}
+.company .employee-grid p {
+  font-size: 12px;
+  color: #c0c3c7;
+  text-transform: uppercase;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 700;
+  line-height: 17px;
+  margin-bottom: 13px;
+}
+.company .employee-grid p a {
+  font-size: 14px;
+  text-transform: none;
+  color: #ff3366;
+  font-weight: 400;
+  font-family: "Open Sans", "open-sans", sans-serif;
+}
+.company #jobs {
+  padding-top: 120px;
+}
+.company #jobs h2 {
+  margin-bottom: 100px;
+}
+.company #jobs h3 {
+  font-size: 15px;
+}
+.company #jobs .icon {
+  border: 2px solid #ff3366;
+  height: 104px !important;
+  width: 104px !important;
+  border-radius: 100px;
+  display: block;
+  text-indent: -9999px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 38px;
+}
+.company #jobs .icon.anywhere {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -4500px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #jobs .icon.anywhere {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -3000px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+}
+.company #jobs .icon.health {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -1800px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #jobs .icon.health {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -1200px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+}
+.company #jobs .icon.salary {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -4200px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #jobs .icon.salary {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -2800px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+}
+.company #jobs .icon.learn {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/sprites/team-sf8b03d02c2.png');
+  background-position: 0 -2100px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #jobs .icon.learn {
+    background-image: url('../img/sprites-retina/team-s9d3a864204.png');
+    background-position: 0 -1400px;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+  }
+}
+.company #jobs .grid-job-features {
+  max-width: 1040px;
+  margin: 0px auto;
+}
+.company #jobs .split {
+  margin-bottom: 86px;
+}
+.company #jobs .split:nth-child(even) {
+  margin-right: 0;
+}
+.company #jobs .split p {
+  font-size: 15px;
+  line-height: 2;
+  padding: 0 35px;
+}
+.company #jobs .open-positions h2 {
+  margin: 0 0 40px;
+  clear: both;
+}
+.company #jobs .open-positions ul {
+  text-align: left;
+  max-width: 1040px;
+  margin: 0px auto;
+}
+.company #jobs .open-positions li {
+  float: left;
+  display: block;
+  margin-right: 3.125%;
+  width: 31.25%;
+  margin-top: 1px;
+  margin-bottom: 40px;
+  border: 1px solid #d0d5d8;
+}
+.company #jobs .open-positions li:last-child {
+  margin-right: 0;
+}
+.company #jobs .open-positions li:nth-child(3n) {
+  margin-right: 0;
+}
+.company #jobs .open-positions li:nth-child(3n+1) {
+  clear: left;
+}
+.company #jobs .open-positions li h3 {
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  display: block;
+  background: #fff;
+}
+.company #jobs .open-positions li:hover {
+  border-top: solid 2px #ff3366;
+  margin-top: 0px;
+}
+.company #jobs .open-positions li:hover span {
+  color: #323a45;
+  border-color: #323a45;
+}
+.company #jobs .open-positions a {
+  display: block;
+  position: relative;
+  height: 250px;
+  padding: 45px 45px 51px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-transform: none;
+  background: white;
+  font: 300 24px/1.4em "Open Sans", "open-sans", sans-serif;
+  color: #323a45;
+}
+.company #jobs .open-positions a span {
+  display: inline-block;
+  position: absolute;
+  bottom: 25px;
+  left: 45px;
+  color: #8a959e;
+  font-size: 18px;
+  line-height: 1.2em;
+  border-bottom: solid 1px #d0d5d8;
+}
+.company #jobs .open-positions .whr-info {
+  display: none;
+}
+.company #jobsNotOnWorkable {
+  display: none;
+}
+.company #media_kit {
+  height: 585px;
+}
+.company #media_kit h1 {
+  margin: 60px 0 35px;
+}
+.company #media_kit p {
+  color: #d4d7da;
+  font-size: 25px;
+  line-height: 38px;
+  margin: 0 auto 56px;
+  max-width: 840px;
+}
+.company #media_kit p.button {
+  margin-bottom: 43px;
+}
+.company #media_kit p.small {
+  color: #8a959e;
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+.company #media_kit ul li {
+  margin: 0 20px;
+  display: inline-block;
+}
+.company #media_kit ul a {
+  color: #2f7bbd;
+  font: 700 13px/1em "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+}
+.company #media_kit ul a:hover {
+  color: #8ab9e2;
+}
+.company #contact {
+  margin-top: -100px;
+  padding-top: 100px;
+  background: center 200px no-repeat;
+  background-image: url('../img/team/contact_bg.png?1446153675');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .company #contact {
+    background-image: url('../img/team/contact_bg@2x.png?1446153675');
+    background-size: 942px 234px;
+  }
+}
+.company #contact h2 {
+  margin-bottom: 29px;
+}
+.company #contact h3 {
+  font-size: 15px;
+}
+.company #contact p {
+  margin-bottom: 40px;
+  font-size: 15px;
+  line-height: 30px;
+}
+.company #contact .wrap {
+  width: 500px;
+  margin: 0 auto;
+}
+.company #contact form {
+  width: 100%;
+}
+.company #contact form p {
+  clear: both;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #8a959e;
+}
+.company #contact form input, .company #contact form textarea, .company #contact form select {
+  width: 100%;
+  border: 1px solid #d0d5d8;
+}
+.company #contact form input.error, .company #contact form textarea.error, .company #contact form select.error {
+  border-color: #ff3366;
+}
+.company #contact form textarea {
+  height: 224px;
+  padding: 19px 14px;
+}
+.company #contact form input[type=submit] {
+  border: 0;
+  font-size: 20px;
+}
+.company #contact-thankyou-wrapper {
+  display: none;
+  margin-bottom: 80px;
+}
+.company #contact-thankyou-wrapper h2 {
+  margin: 100px 0 20px 0;
+}
+.company #contact-thankyou-wrapper p {
+  margin-bottom: 70px;
+}
+.company #contact-thankyou-wrapper a {
+  display: block;
+  width: 345px;
+  margin: 0 auto 30px auto;
+  border: solid 1px #d0d5d8;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: bold 16px/1.5em "Open Sans", "open-sans", sans-serif;
+  padding: 33px 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.company #contact-thankyou-wrapper a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22px;
+  line-height: 16px;
+  margin-right: 5px;
+}
+.company #contact-thankyou-wrapper a.twitter {
+  color: #4cafe6;
+}
+.company #contact-thankyou-wrapper a.twitter:hover {
+  border-color: #4cafe6;
+}
+.company #contact-thankyou-wrapper a.dribbble {
+  color: #fd5280;
+}
+.company #contact-thankyou-wrapper a.dribbble:hover {
+  border-color: #fd5280;
+}
+.company #contact-thankyou-wrapper button {
+  background: none;
+  border: none;
+  outline: none;
+  color: #2f7bbd;
+  font: bold 16px/1.5em "Open Sans", "open-sans", sans-serif;
+  margin: 70px 0 40px 0;
+  cursor: pointer;
+}
+.company #contact-thankyou-wrapper button:hover {
+  color: #ff3366;
+}

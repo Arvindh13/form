@@ -1,0 +1,20 @@
+<h1>Cform#index</h1>
+
+<%= link_to 'New Form', new_cform_path %>
+
+
+<table border="1" cellpadding="1" cellpadding="1">
+  <tr>
+    <th>Name</th>
+    <th>e-Mail</th>
+    <th>Mobile</th>
+  </tr>
+ 
+  <% @cform.each do |cform| %>
+    <tr>
+      <td><%= cform.name %></td>
+      <td><%= cform.email %></td>
+      <td><%= cform.mobile %></td>
+    </tr>
+  <% end %>
+</table>
